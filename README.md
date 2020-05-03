@@ -1,2 +1,2 @@
-# lab1-IAP
-Internet Application Programming Lab1
+# IAP LAB WORK
+Internet Application Programming Lab Assignments and Project
