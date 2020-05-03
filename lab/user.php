@@ -1,5 +1,5 @@
 <?php
-include "crud.php";
+include "Crud.php";
 include_once "DBConnector.php";
 
 class User implements Crud{
