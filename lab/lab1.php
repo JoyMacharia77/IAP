@@ -1,7 +1,6 @@
 <?php
 include_once 'DBConnector.php';
 include_once 'user.php';
-$con = new DBConnector;
 
 if(isset ($_POST['btn-save'])){
     $first_name = $_POST ['first_name'];
