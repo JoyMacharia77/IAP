@@ -73,10 +73,15 @@ class User implements Crud{
         $uname = $this -> username;
         $this->hashPassword();
         $pass = $this ->password;
-        $res = mysqli_query($con->conn, ("INSERT INTO user_table(first_name, last_name, user_city,username,password)
-         VALUES('$fn','$ln','$city','$uname','$pass')") or die("Error : " .mysqli_error($con->conn)));
-		$con->closeDatabase();
-		return $res;
+        $image = $this ->image;
+        //LAB3
+        $timeZoneOffset = $this -> time_stamp;
+        $utcTimeStamp = $this -> offset;
+        $res = mysqli_query($con->conn, ("INSERT INTO user_table(first_name, last_name, user_city,username,password,image,time_stamp,offset)
+         VALUES('$fn','$ln','$city','$uname','$pass','$image',' $timeZoneOffset',' $utcTimeStamp')") or die("Error : " .mysqli_error($con->conn)));
+
+	  	$con->closeDatabase();
+		  return $res;
     }
 
     public function readAll()
