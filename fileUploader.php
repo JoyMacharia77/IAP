@@ -11,7 +11,7 @@
         private $final_type;
         private $file_size;
         private $final_file_name;
-       // private $temporary_file_name;
+      
 
         public function __construct($data)
         {
@@ -31,15 +31,7 @@
         {
             return $this->file_original_name;
         }
-     /*   public function setTemporaryFileName($tmp_name){
-            $this->file_tmp_name = $tmp_name;
-        }
-
-        public function getTemporaryFilename(){
-            return $this->file_tmp_name;
-        }
-        */
-
+    
         public function setFileType($type)
         {
             $this->final_type = $type;
