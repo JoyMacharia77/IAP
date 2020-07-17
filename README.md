@@ -1,2 +1,2 @@
 # IAP LAB WORK
-Completed Labs.
+Laravel-based Completed Labs.
