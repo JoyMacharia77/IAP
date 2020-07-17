@@ -1,5 +1,5 @@
 # IAP LAB WORK
-NODE JS TASK
+NODE JS LAB
 
 The following are my End Points, which can be accessed via PostMan.
 They are also in the 'index.js' under the 'routes' folder.
