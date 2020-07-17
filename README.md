@@ -1,2 +1,2 @@
 # lab1-IAP
-Internet Application Programming Lab1
+This branch contains the tasks accomplished for LAB 2.
