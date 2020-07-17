@@ -1,2 +1,2 @@
 # IAP LAB WORKS
-Internet Application Programming Complete Labs. The labs are in ther own respective branches, no work is in the Master.
+Internet Application Programming COMPLETE Labs. The labs are in ther own respective branches, NO WORK IS IN THE MASTER.
