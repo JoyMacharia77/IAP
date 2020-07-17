@@ -1,3 +1,2 @@
-# IAP LABS
-Internet Application Programming Complete Labs.
-The labs are in ther own respective branches, no work is in the Master.
+# LAB 4 -IAP
+This branch contains the tasks accomplished for LAB 4.
